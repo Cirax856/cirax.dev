@@ -2,7 +2,7 @@ const icon = document.getElementById("cv");
 const tooltip = document.getElementById("tooltip");
 
 // Your tooltip text
-const text = "CV – Work in progress :)";
+const text = "CV - Work in progress :)";
 
 // Show tooltip on hover
 icon.addEventListener("mouseenter", () => {

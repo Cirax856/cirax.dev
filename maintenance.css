@@ -99,11 +99,12 @@ footer span {
 }
 
 .linear-effect {
-    z-index: -1000;
+    z-index: -1;
     background-color: var(--primary);
-    width: 100vw;
+    width: 75vw;
     height: 34.375rem;
-    filter: blur(100rem);
+    filter: blur(5rem);
+    border-radius: 64px;
     position: fixed;
     left: 50%;
     top: 50%;
