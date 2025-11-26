@@ -142,10 +142,10 @@ footer span {
 #tooltip {
     position: fixed;
     padding: 6px 10px;
-    background: rgba(20, 20, 20, 0.9);
+    background-color: rgba(20, 20, 20, 0.9);
     color: white;
-    font-size: 13px;
-    border-radius: 4px;
+    font-size: 1rem;
+    border-radius: 8px;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.15s ease;
@@ -153,4 +153,8 @@ footer span {
     z-index: 1000;
     font-size: clamp(0.7rem, 1vw, 0.9rem);
     max-width: 90vw;
+}
+
+#discord {
+    cursor: pointer;
 }
